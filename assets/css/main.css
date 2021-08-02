@@ -19,8 +19,7 @@ div{
     position: absolute;
     top: 305px;
     background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    transition: all 0.5s linear
+    transition: all 0.2s ease
 }
 .hover h2{
     color: #fff;
@@ -29,5 +28,4 @@ div{
 }
 .image:hover .hover{
     top: 0;
-    display: block;
 }
